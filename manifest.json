@@ -1,0 +1,18 @@
+{
+    "name": "Social Media Manager",
+    "manifest_version": 3,
+    "version": "1.0.0.0",
+    "action": {
+        "default_title": "Open social media tabs"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [  "tabs" ],
+    "content_scripts": [
+        {
+            "matches": [  "<all_urls>" ],
+            "js": [ "content.js"  ]
+        }
+    ]
+}
