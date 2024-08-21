@@ -13,3 +13,7 @@ https://developer.chrome.com/docs/extensions/reference/api/tabs
 For finding and opening the tabs we are going to use <b>chrome.tabs.query</b> and <b>chrome.tabs.create</b> functions.
 
 We are then going to use chrome.tabs API <a href="https://developer.chrome.com/docs/extensions/reference/api/tabs#event">events</a> to run code when a tab has been created or updated and then redirect it accordingly.
+
+<a href="https://www.buymeacoffee.com/m2kdevelopments" target="_blank">
+<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" >
+</a>
